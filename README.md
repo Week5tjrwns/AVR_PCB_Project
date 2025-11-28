@@ -2,7 +2,7 @@
 
 ## Overview
 - 과목: 마이크로프로세서 실험 1 
-- 목표: ATmega128의 GPIO, Interrupt, Timer, ADC 등 주변 장치(Peripheral) 제어 기초 습득
+- 목표: ATmega128의 GPIO, Interrupt, Timer, ADC 등 주변 장치 제어 기초 습득
 - 환경: Microchip Studio (C Language)
 - 하드웨어:학교 실습용 ATmega128 개발 보드 (PCB Type)
 - 구성: 7-Segment, 4x4 Keypad, VR, LED Array
@@ -15,12 +15,12 @@
 - 7-Segment: 0~9 숫자 폰트 배열 구현 및 다이내믹 구동 방식 이해
 
 ### Keypad
-- 매트릭스 스캔: 4x4 키패드의 행(Row)/열(Col) 스캔 원리 구현
+- 매트릭스 스캔: 4x4 키패드의 행/열 스캔 원리 구현
 - 입력 처리: 폴링(Polling) 방식으로 키 입력 감지 및 7-Segment 디스플레이 연동
 
 ### ADC & 센서 기초 
-- 가변저항 값 측정: ADC 레지스터 설정 (Prescaler, Reference Voltage)
-- 데이터 변환: 0~1023의 아날로그 값을 0~99 범위로 매핑하여 디스플레이 표시
+- 가변저항 값 측정: ADC 레지스터 설정 
+- 데이터 변환: 0-1023의 아날로그 값을 0-99 범위로 매핑하여 디스플레이 표시
 
 ### Timer/Counter
 - 정밀 시간 제어: _delay_ms() 방식의 한계를 극복하기 위해 Timer/Counter 사용
